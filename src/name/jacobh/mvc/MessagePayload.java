@@ -24,7 +24,7 @@ public class MessagePayload {
 
     /**
      * Getter method for the direction
-     * @return Field value
+     * @return Direction value
      */
     public int getDirection() {
         return direction;
@@ -32,7 +32,7 @@ public class MessagePayload {
 
     /**
      * Getter method for the
-     * @return
+     * @return Field value
      */
     public int getField() {
         return field;
