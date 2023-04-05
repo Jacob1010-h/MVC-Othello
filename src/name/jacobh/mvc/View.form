@@ -1,13 +1,1206 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="src.name.jacobh.mvc.View">
-  <grid id="27dc6" row-count="1" column-count="1" layout-manager="GridLayoutManager">
-    <margin top="0" left="0" bottom="0" right="0"/>
+  <grid id="27dc6" binding="mvcOthello" layout-manager="GridLayoutManager" row-count="8" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
-      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+      <xy x="20" y="20" width="914" height="676"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-13670349"/>
+      <foreground color="-16777216"/>
+    </properties>
     <border type="none"/>
-    <children/>
+    <children>
+      <component id="d9ed6" class="javax.swing.JRadioButton" binding="_00">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="da389" class="javax.swing.JRadioButton" binding="_01">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="33508" class="javax.swing.JRadioButton" binding="_02">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="5872e" class="javax.swing.JRadioButton" binding="_03">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="e1ca1" class="javax.swing.JRadioButton" binding="_04">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="525fd" class="javax.swing.JRadioButton" binding="_05">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="551c9" class="javax.swing.JRadioButton" binding="_06">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="32730" class="javax.swing.JRadioButton" binding="_07">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="aaf33" class="javax.swing.JRadioButton" binding="_10">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="a1480" class="javax.swing.JRadioButton" binding="_11">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="811fd" class="javax.swing.JRadioButton" binding="_12">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="a2994" class="javax.swing.JRadioButton" binding="_13">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="dd72a" class="javax.swing.JRadioButton" binding="_14">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="dd85a" class="javax.swing.JRadioButton" binding="_15">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="61db8" class="javax.swing.JRadioButton" binding="_16">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="5c261" class="javax.swing.JRadioButton" binding="_17">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="5119c" class="javax.swing.JRadioButton" binding="_20">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="4b776" class="javax.swing.JRadioButton" binding="_21">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <enabled value="true"/>
+          <foreground color="-13670349"/>
+          <hideActionText value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <toolTipText value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="1b6ab" class="javax.swing.JRadioButton" binding="_22">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="4a713" class="javax.swing.JRadioButton" binding="_23">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="fc91b" class="javax.swing.JRadioButton" binding="_24">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="b5e22" class="javax.swing.JRadioButton" binding="_25">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="13f14" class="javax.swing.JRadioButton" binding="_26">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="812de" class="javax.swing.JRadioButton" binding="_27">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="b228d" class="javax.swing.JRadioButton" binding="_30">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="8a92a" class="javax.swing.JRadioButton" binding="_31">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="b00dd" class="javax.swing.JRadioButton" binding="_32">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="3066c" class="javax.swing.JRadioButton" binding="_33">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="b71d4" class="javax.swing.JRadioButton" binding="_34">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="fc102" class="javax.swing.JRadioButton" binding="_35">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="cdec6" class="javax.swing.JRadioButton" binding="_36">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="38ba" class="javax.swing.JRadioButton" binding="_37">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="f9ef0" class="javax.swing.JRadioButton" binding="_40">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="b371c" class="javax.swing.JRadioButton" binding="_41">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="bd596" class="javax.swing.JRadioButton" binding="_42">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="d5c36" class="javax.swing.JRadioButton" binding="_43">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="ea3d7" class="javax.swing.JRadioButton" binding="_44">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="2da91" class="javax.swing.JRadioButton" binding="_45">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="1d798" class="javax.swing.JRadioButton" binding="_46">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="f9f37" class="javax.swing.JRadioButton" binding="_47">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="2f0f" class="javax.swing.JRadioButton" binding="_50">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="37d3d" class="javax.swing.JRadioButton" binding="_51">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="bb05c" class="javax.swing.JRadioButton" binding="_52">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="f1305" class="javax.swing.JRadioButton" binding="_53">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="adb30" class="javax.swing.JRadioButton" binding="_54">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="1e66e" class="javax.swing.JRadioButton" binding="_55">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="44307" class="javax.swing.JRadioButton" binding="_56">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="4e874" class="javax.swing.JRadioButton" binding="_57">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="44f77" class="javax.swing.JRadioButton" binding="_60">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="b43a" class="javax.swing.JRadioButton" binding="_61">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="69929" class="javax.swing.JRadioButton" binding="_62">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="b3545" class="javax.swing.JRadioButton" binding="_63">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="a0176" class="javax.swing.JRadioButton" binding="_64">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="bf0b2" class="javax.swing.JRadioButton" binding="_65">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="cdc56" class="javax.swing.JRadioButton" binding="_66">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="4396c" class="javax.swing.JRadioButton" binding="_67">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="c3418" class="javax.swing.JRadioButton" binding="_70">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="4a400" class="javax.swing.JRadioButton" binding="_71">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="f7899" class="javax.swing.JRadioButton" binding="_72">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="adf50" class="javax.swing.JRadioButton" binding="_73">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="3408" class="javax.swing.JRadioButton" binding="_74">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="ab095" class="javax.swing.JRadioButton" binding="_75">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="549db" class="javax.swing.JRadioButton" binding="_76">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="e7630" class="javax.swing.JRadioButton" binding="_77">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="64" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13670349"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-13670349"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+    </children>
   </grid>
+  <buttonGroups>
+    <group name="row0">
+      <member id="d9ed6"/>
+      <member id="d9ed6"/>
+      <member id="da389"/>
+      <member id="33508"/>
+      <member id="5872e"/>
+      <member id="e1ca1"/>
+      <member id="525fd"/>
+      <member id="551c9"/>
+      <member id="32730"/>
+    </group>
+    <group name="row1">
+      <member id="aaf33"/>
+      <member id="aaf33"/>
+      <member id="a1480"/>
+      <member id="811fd"/>
+      <member id="a2994"/>
+      <member id="dd72a"/>
+      <member id="dd85a"/>
+      <member id="61db8"/>
+      <member id="5c261"/>
+    </group>
+    <group name="row2">
+      <member id="5119c"/>
+      <member id="5119c"/>
+      <member id="4b776"/>
+      <member id="1b6ab"/>
+      <member id="4a713"/>
+      <member id="fc91b"/>
+      <member id="b5e22"/>
+      <member id="13f14"/>
+      <member id="812de"/>
+    </group>
+  </buttonGroups>
 </form>

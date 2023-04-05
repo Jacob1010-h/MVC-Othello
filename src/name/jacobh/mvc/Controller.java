@@ -3,6 +3,8 @@ package src.name.jacobh.mvc;
 
 import com.mrjaffesclass.apcs.messenger.*;
 
+import javax.swing.*;
+
 /**
  *
  * The Controller is the master of the App you're writing. It instantiates the
@@ -42,6 +44,7 @@ public class Controller implements MessageHandler {
         View view = new View(mvcMessaging);    // This creates our view
         view.init();
         view.setVisible(true);
+
 
         // Create the model
         Model model = new Model(mvcMessaging);  // This creates our model
